@@ -3,7 +3,7 @@ def starts_with_a_vowel?(word)
     return true
   elsif word != %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
     return false
-  end
+  
   end
 end
 
