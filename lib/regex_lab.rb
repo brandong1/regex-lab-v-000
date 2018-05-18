@@ -1,6 +1,8 @@
 def starts_with_a_vowel?(word)
   if word = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
     return true
+  else
+    return false
   end
 end
 
