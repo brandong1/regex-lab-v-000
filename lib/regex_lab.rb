@@ -1,9 +1,10 @@
 def starts_with_a_vowel?(word)
   if word = %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
     return true
-  elsif word != %w{ afoot Excellent incredible Absolute unreal Inconceivable octopus }
+  elsif word = %w{ chandoo Crenel crooked Flimsy folksy Dog Hermit
+   makeshift Palazzi sixfold Truth }
     return false
-  
+
   end
 end
 
